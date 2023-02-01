@@ -1,0 +1,13 @@
+.Navdatacontainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vw 8vw;
+    
+}
+.Navdatatext{
+    font-size: 1.1vw;
+    text-align: center;
+}
+.Navpic{
+cursor: pointer;
+}
