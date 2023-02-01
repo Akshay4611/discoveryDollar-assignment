@@ -5,7 +5,7 @@ import logo2 from '../assets/plus_aef861.png'
 import { FiSearch } from 'react-icons/fi';
 import {MdKeyboardArrowDown} from 'react-icons/md'
 import {BsCart3} from 'react-icons/bs'
-
+import Button from '@mui/material/Button';
 const Navbar = () => {
     
 

@@ -1,16 +1,53 @@
-.sdflals{
+.sdflals {
     color: rgb(167, 167, 167);
 }
-.subCat{
+
+.subCat {
     width: 15vw;
     background-color: aqua;
     position: fixed;
     margin-left: 14.5vw;
-    top:12.2vw;
-    border-left: .2vw groove rgb(1,1,1,.1) ;
-    box-Shadow:4px 4px 4px rgb(1,1,1,.3);
+    top: 12.2vw;
+    border-left: .2vw groove rgb(1, 1, 1, .1);
+    box-Shadow: 4px 4px 4px rgb(1, 1, 1, .3);
     background-color: #fafafa;
 }
-.subDiv{
+
+.subDiv {
     padding: .7vw;
+}
+
+.product-main {
+    width: 15vw;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgb(1, 1, 1, 0.1);
+    margin: 0vw .7vw;
+    padding: 2vw;
+    background-color: white;
+    transition: all .3s ease-in-out;
+    
+    
+}
+.product-main:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.product-main img {
+    transform: scale(1);
+    transition: all 0.1s ease-in-out;
+}
+
+.product-main img:hover {
+    transform: scale(1.3);
+}
+
+.shop-now {
+    color: green;
+    text-transform: capitalize;
+}
+
+.Best-of-Electronics {
+    background-image: url("../image/cuteImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }

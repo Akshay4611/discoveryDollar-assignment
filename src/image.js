@@ -81,19 +81,63 @@
         },
         {
             "name":"Women Western",
-            "subcategory":""
+            "subcategory":[
+                "All",
+                "Men's Jeans",
+                "Men's Trousers",
+                "Men's Trackpants",
+                "Men's Shorts",
+                "Men's Cargos",
+                "Men's Threefourths",
+                "Men's Pyjamas",
+                "Men's Dhoti",
+                "Men's Ethnic Pyjama"
+            ]
         },
         {
             "name":"Men Footwear",
-            "subcategory":""
+            "subcategory":[
+                "All",
+                "Women Sarees",
+                "Women Kurtas & Kurtis",
+                "Women Dress Materials",
+                "Women Gowns",
+                "Ethnic Dresses",
+                "Women Lehenga",
+                "Men's Windcheaters",
+                "Men's Suit",
+                "Men's Fabrics"
+            ]
         },
         {
             "name":"Women Footwear",
-            "subcategory":""
+            "subcategory":[
+                "All",
+                "Men's Jeans",
+                "Men's Trousers",
+                "Men's Trackpants",
+                "Men's Shorts",
+                "Men's Cargos",
+                "Men's Threefourths",
+                "Men's Pyjamas",
+                "Men's Dhoti",
+                "Men's Ethnic Pyjama"
+            ]
         },
         {
             "name":"Watches and Accessories",
-            "subcategory":""
+            "subcategory":[
+                "All",
+                "Women Sarees",
+                "Women Kurtas & Kurtis",
+                "Women Dress Materials",
+                "Women Gowns",
+                "Ethnic Dresses",
+                "Women Lehenga",
+                "Men's Windcheaters",
+                "Men's Suit",
+                "Men's Fabrics"
+            ]
         },
         {
             "name":"Bags, Suitcases & Luggage",
@@ -175,15 +219,51 @@
         },
         {
             "name":"Laptop and Desktop",
-            "subcategory":""
+            "subcategory":[
+                "All",
+                "Bed Linens",
+                "Bedsheets",
+                "Blankets",
+                "Curtains & Accessories",
+                "Bath linen",
+                "Floor coverings",
+                "Covers & protectors",
+                "Cushions & Pillows",
+                "Kitchen Linen Sets",
+                "Table Linen Sets"
+            ]
         },
         {
             "name":"MobileAccessory",
-            "subcategory":""
+            "subcategory":[
+                "All",
+                "Bed Linens",
+                "Bedsheets",
+                "Blankets",
+                "Curtains & Accessories",
+                "Bath linen",
+                "Floor coverings",
+                "Covers & protectors",
+                "Cushions & Pillows",
+                "Kitchen Linen Sets",
+                "Table Linen Sets"
+            ]
         },
         {
             "name":"Powerbank",
-            "subcategory":""
+            "subcategory":[
+                "All",
+                "Bed Linens",
+                "Bedsheets",
+                "Blankets",
+                "Curtains & Accessories",
+                "Bath linen",
+                "Floor coverings",
+                "Covers & protectors",
+                "Cushions & Pillows",
+                "Kitchen Linen Sets",
+                "Table Linen Sets"
+            ]
         },
         {
             "name":"Smart Home automation",
@@ -216,6 +296,21 @@
             "name":"Home Furnishings",
             "subcategory":[
                 "All",
+                "Women Sarees",
+                "Women Kurtas & Kurtis",
+                "Women Dress Materials",
+                "Women Gowns",
+                "Ethnic Dresses",
+                "Women Lehenga",
+                "Men's Windcheaters",
+                "Men's Suit",
+                "Men's Fabrics"
+            ]
+        },
+        {
+            "name":"Living Room Furniture",
+            "subcategory":[
+                "All",
                 "Bed Linens",
                 "Bedsheets",
                 "Blankets",
@@ -229,24 +324,66 @@
             ]
         },
         {
-            "name":"Living Room Furniture",
-            "subcategory":""
-        },
-        {
             "name":"Kitchen & Dining",
-            "subcategory":""
+            "subcategory":[
+                "All",
+                "Women Sarees",
+                "Women Kurtas & Kurtis",
+                "Women Dress Materials",
+                "Women Gowns",
+                "Ethnic Dresses",
+                "Women Lehenga",
+                "Men's Windcheaters",
+                "Men's Suit",
+                "Men's Fabrics"
+            ]
         },
         {
             "name":"Bedroom Furniture",
-            "subcategory":""
+            "subcategory":[
+                "All",
+                "Bed Linens",
+                "Bedsheets",
+                "Blankets",
+                "Curtains & Accessories",
+                "Bath linen",
+                "Floor coverings",
+                "Covers & protectors",
+                "Cushions & Pillows",
+                "Kitchen Linen Sets",
+                "Table Linen Sets"
+            ]
         },
         {
             "name":"Home Decor",
-            "subcategory":""
+            "subcategory":[
+                "All",
+                "Women Sarees",
+                "Women Kurtas & Kurtis",
+                "Women Dress Materials",
+                "Women Gowns",
+                "Ethnic Dresses",
+                "Women Lehenga",
+                "Men's Windcheaters",
+                "Men's Suit",
+                "Men's Fabrics"
+            ]
         },
         {
             "name":"Tools & Utility",
-            "subcategory":""
+            "subcategory":[
+                "All",
+                "Bed Linens",
+                "Bedsheets",
+                "Blankets",
+                "Curtains & Accessories",
+                "Bath linen",
+                "Floor coverings",
+                "Covers & protectors",
+                "Cushions & Pillows",
+                "Kitchen Linen Sets",
+                "Table Linen Sets"
+            ]
         },
         {
             "name":"Work Space Furniture",

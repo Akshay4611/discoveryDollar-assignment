@@ -3,6 +3,7 @@ import Crousel from "./Navbar/Crousel"
 import './App.css';
 import Footer from "./Footer.js";
 import {Navitems} from './Navitems'
+import Products from "./Navbar/Products.js";
  
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
        <Navitems/>
       </header>
       <Crousel/>
+       <Products/>
       <Footer/>
     </div>
   );

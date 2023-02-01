@@ -51,6 +51,11 @@
     align-items: center;
     
 }
+.nav__search input::placeholder
+{
+font-size: 1vw;
+letter-spacing: -0.04vw;
+}
 .nav__container .nav__search input {
     width: 35vw;
     height: 4.8vh;
@@ -68,6 +73,7 @@
     color: #2874f0;
 }
 .nav__container button {
+    font-size: 1.1vw;
     color: #2874f0;
     font-weight: 500;
     background-color: #fff;
@@ -75,7 +81,7 @@
     border-radius: 2px;
     height: 32px;
     padding: 0.1em 2em 0.1em 2em;
-    font-size: 20px;
+    
     border: 1px solid #dbdbdb;
 }
 .nav__container .nav__list {
