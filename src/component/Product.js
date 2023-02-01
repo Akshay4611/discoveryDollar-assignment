@@ -5,7 +5,11 @@ import "./DropDownComponent.css"
 const Product = ({ item }) => {
     console.log(item);
     return (
-        <div className='product-main'>
+        <div className='product-main'
+        style={{
+            marginTop:"1vw"
+        }}
+        >
             <img src={item.imgUrl}
                 style={{
                     width: "5vw"
@@ -18,7 +22,7 @@ const Product = ({ item }) => {
             >{item.name}</div>
 
             <div className='shop-now'>shop now </div>
-            <div>{item.price}</div>
+            <div>Rs. {item.price}</div>
         </div>
     )
 }

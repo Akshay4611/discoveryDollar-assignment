@@ -4,17 +4,17 @@ import './App.css';
 import Footer from "./Footer.js";
 import {Navitems} from './Navitems'
 import Products from "./Navbar/Products.js";
- 
+ import Stories from "./component/Stories.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      
        <Navbar/>
        <Navitems/>
-      </header>
       <Crousel/>
        <Products/>
+       <Stories/>
       <Footer/>
     </div>
   );

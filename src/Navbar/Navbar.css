@@ -1,11 +1,13 @@
 .nav__container {
-    min-width: 100vw;
-    height: 56px;
     background-color: #2874f0;
     display: flex;
     padding: 0.5em 10em 0.5em 10em;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0vw;
+    z-index: 25;
+    box-shadow: 4px 10px 10px rgb(0,0,0,.3);
 }
 .nav__container .nav__logo {
     display: block;

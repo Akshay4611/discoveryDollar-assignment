@@ -2,6 +2,7 @@
     padding: 2vw;
     background-color: #1d2337;
     display: flex;
+    margin-top: 3vw;
 }
 
 .footer-div1{
@@ -10,6 +11,7 @@
     justify-content: space-between;
 }
 .footer-div1 h3{
+    font-size: 1vw;
     color: #878787;
     font-weight: 400;
 }
@@ -27,6 +29,8 @@
     width: 30vw;
 }
 .footer-div2 h4{
+    font-size: 1vw;
+
     color: #878787;
     font-weight: 400;
 

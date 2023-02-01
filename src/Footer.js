@@ -118,7 +118,10 @@ const Footer = () => {
 
                 <div
                     style={{
-                        width: "50%"
+                        width: "50%",
+                        borderLeft: "1px solid gray",
+                        paddingLeft: "2vw"
+
                     }}
                 >
 
@@ -142,11 +145,11 @@ const Footer = () => {
                 <div
                     style={{
                         width: "40%",
-                        marginLeft:"3vw"
+                        marginLeft: "3vw",
                     }}
                 >
 
-                    <h4>Mail Us:</h4>
+                    <h4>Registered Office Address:</h4>
                     <ul>
                         <li>
                             Flipkart Internet Private Limited,
@@ -160,6 +163,10 @@ const Footer = () => {
                             Bengaluru, 560103,
 
                             Karnataka, India
+
+                            CIN : U51109KA2012PTC066107
+
+                            Telephone: 044-45614700
                         </li>
                     </ul>
                 </div>

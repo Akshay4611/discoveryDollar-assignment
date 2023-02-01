@@ -25,6 +25,7 @@
     padding: 2vw;
     background-color: white;
     transition: all .3s ease-in-out;
+    height:18vw;
     
     
 }
@@ -50,4 +51,14 @@
     background-image: url("../image/cuteImage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+.stories-flip {
+    padding: 0vw 2vw;
+}
+.stories-flip h3{
+    color: #878787;
+    margin: 1vw 0vw;
+}
+.stories-flip p{
+    font-size: .8vw;
 }

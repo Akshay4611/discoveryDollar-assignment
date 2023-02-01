@@ -25,91 +25,115 @@ const Products = () => {
   return (
     <div>
 
-    <div
-    style={{
-      display:"flex",
-      
-    }}
-    >
       <div
-      className='Best-of-Electronics'
-      style={{
-        width:"20vw",
-        textAlign:"center",
-        padding:"2vw"
-      }}
+        style={{
+          display: "flex",
+
+        }}
       >
-        <h1
-        style={{
-          fontSize:"3vw"
-        }}
-        >
-
-        Best of Electronics
-        </h1>
-        <Button variant="contained">Contained</Button>
-
-      </div>
-      <div
-        style={{
-          padding: "2vw",
-          width: "80vw"
-        }}
-        >
-        <Carousel
+        <div
+          className='Best-of-Electronics'
           style={{
-            marginTop: '10px',
-            
+            width: "20vw",
+            textAlign: "center",
+            padding: "2vw"
           }}
-          swipeable={false}
-          draggable={false}
-          responsive={responsive}
-          infinite={true}
-          autoPlay={true}
-          autoPlaySpeed={4000}
-          keyBoardControl={true}
-          showDots={false}
-          arrows={false}
-          slidesToSlide={1}
-          containerClass="carousel-container"
-          dotListClass="custom-dot-list-style"
-          itemClass="carousel-item-padding-40-px">
-
-          {arrayOfProducts?.map((item, idx) => {
-            return <Product item={item} key={idx} />
-            
-          })}
-
-        </Carousel>
-      </div>
-    </div>
-          All Product
-          <div
-          style={{
-            display:"flex",
-            flexWrap:"wrap"
-          }}
+        >
+          <h1
+            style={{
+              fontSize: "3vw"
+            }}
           >
 
+            Best of Electronics
+          </h1>
+          <Button variant="contained">Contained</Button>
 
-          {arrayOfProducts?.map((item, idx) => {
-            return <Product item={item} key={idx} />
+        </div>
+        <div
+          style={{
+            padding: "2vw",
+            width: "80vw"
+          }}
+        >
+          <Carousel
+            style={{
+              marginTop: '10px',
 
-          })}
-          {arrayOfProducts?.map((item, idx) => {
-            return <Product item={item} key={idx} />
+            }}
+            swipeable={false}
+            draggable={false}
+            responsive={responsive}
+            infinite={true}
+            autoPlay={true}
+            autoPlaySpeed={4000}
+            keyBoardControl={true}
+            showDots={false}
+            arrows={false}
+            slidesToSlide={1}
+            containerClass="carousel-container"
+            dotListClass="custom-dot-list-style"
+            itemClass="carousel-item-padding-40-px">
 
-          })}
-          {arrayOfProducts?.map((item, idx) => {
-            return <Product item={item} key={idx} />
+            {arrayOfProducts?.map((item, idx) => {
+              return <Product item={item} key={idx} />
 
-          })}
-          {arrayOfProducts?.map((item, idx) => {
-            return <Product item={item} key={idx} />
+            })}
 
-          })}
-          </div>
-          </div>
+          </Carousel>
+        </div>
+      </div>
+      <p
+        style={{
+          margin: "3vw",
+          fontSize: "1.5vw"
+        }}
+      >
+
+        All Product
+      </p>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          padding:"0vw 6vw",
+          justifyContent:"space-between"
+        }}
+      >
+
+
+        {arrayOfProducts?.map((item, idx) => {
+          return <Product item={item} key={idx} />
+
+        })}
+        {arrayOfProducts?.map((item, idx) => {
+          return <Product item={item} key={idx} />
+
+        })}
+        {arrayOfProducts?.map((item, idx) => {
+          return <Product item={item} key={idx} />
+
+        })}
+        {arrayOfProducts?.map((item, idx) => {
+          return <Product item={item} key={idx} />
+
+        })}
+      </div>
+      <div
+      style={{
+        textAlign:"center"
+      }}
+      >
+
+      <Button
+      variant="contained"
+        style={{
+          fontSize:"1vw",
+          margin:"2vw"
+        }}
+        >Explore </Button>
+        </div>
+    </div>
   )
 }
 
