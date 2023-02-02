@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Akshay4611/discoveryDollar-assignment.git/static/css/main.7c5e6411.css",
+    "main.js": "/Akshay4611/discoveryDollar-assignment.git/static/js/main.be3a3c44.js",
+    "static/media/cuteImage.jpg": "/Akshay4611/discoveryDollar-assignment.git/static/media/cuteImage.353b0b8b1a150d54d364.jpg",
+    "static/media/revicons.eot": "/Akshay4611/discoveryDollar-assignment.git/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Akshay4611/discoveryDollar-assignment.git/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Akshay4611/discoveryDollar-assignment.git/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Akshay4611/discoveryDollar-assignment.git/index.html",
+    "static/media/uparrow.svg": "/Akshay4611/discoveryDollar-assignment.git/static/media/uparrow.4c6abf93e5f81056680a18aefc73d87e.svg",
+    "main.7c5e6411.css.map": "/Akshay4611/discoveryDollar-assignment.git/static/css/main.7c5e6411.css.map",
+    "main.be3a3c44.js.map": "/Akshay4611/discoveryDollar-assignment.git/static/js/main.be3a3c44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c5e6411.css",
+    "static/js/main.be3a3c44.js"
+  ]
+}
